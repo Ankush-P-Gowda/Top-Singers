@@ -1,39 +1,39 @@
-var audio1 = $('.first .col-4:nth-of-type(1) > .audio');
-var player1 = $('.first .col-4:nth-of-type(1)');
+var audio1 = $('.first .col-md-4:nth-of-type(1) > .audio');
+var player1 = $('.first .col-md-4:nth-of-type(1)');
 
-var audio2 = $('.first .col-4:nth-of-type(2) > .audio');
-var player2 = $('.first .col-4:nth-of-type(2)');
+var audio2 = $('.first .col-md-4:nth-of-type(2) > .audio');
+var player2 = $('.first .col-md-4:nth-of-type(2)');
 
-var audio3 = $('.first .col-4:nth-of-type(3) > .audio');
-var player3 = $('.first .col-4:nth-of-type(3)');
+var audio3 = $('.first .col-md-4:nth-of-type(3) > .audio');
+var player3 = $('.first .col-md-4:nth-of-type(3)');
 
-var audio4 = $('.second .col-4:nth-of-type(1) > .audio');
-var player4 = $('.second .col-4:nth-of-type(1)');
+var audio4 = $('.second .col-md-4:nth-of-type(1) > .audio');
+var player4 = $('.second .col-md-4:nth-of-type(1)');
 
-var audio5 = $('.second .col-4:nth-of-type(2) > .audio');
-var player5 = $('.second .col-4:nth-of-type(2)');
+var audio5 = $('.second .col-md-4:nth-of-type(2) > .audio');
+var player5 = $('.second .col-md-4:nth-of-type(2)');
 
-var audio6 = $('.second .col-4:nth-of-type(3) > .audio');
-var player6 = $('.second .col-4:nth-of-type(3)');
+var audio6 = $('.second .col-md-4:nth-of-type(3) > .audio');
+var player6 = $('.second .col-md-4:nth-of-type(3)');
 
-var audio7 = $('.third .col-4:nth-of-type(1) > .audio');
-var player7 = $('.third .col-4:nth-of-type(1)');
+var audio7 = $('.third .col-md-4:nth-of-type(1) > .audio');
+var player7 = $('.third .col-md-4:nth-of-type(1)');
 
-var audio8 = $('.third .col-4:nth-of-type(2) > .audio');
-var player8 = $('.third .col-4:nth-of-type(2)');
+var audio8 = $('.third .col-md-4:nth-of-type(2) > .audio');
+var player8 = $('.third .col-md-4:nth-of-type(2)');
 
 
-var audio10 = $('.third .col-4:nth-of-type(3) > .audio');
-var player10 = $('.third .col-4:nth-of-type(3)');
+var audio10 = $('.third .col-md-4:nth-of-type(3) > .audio');
+var player10 = $('.third .col-md-4:nth-of-type(3)');
 
-var audio11 = $('.fourth .col-4:nth-of-type(1) > .audio');
-var player11 = $('.fourth .col-4:nth-of-type(1)');
+var audio11 = $('.fourth .col-md-4:nth-of-type(1) > .audio');
+var player11 = $('.fourth .col-md-4:nth-of-type(1)');
 
-var audio12 = $('.fourth .col-4:nth-of-type(2) > .audio');
-var player12 = $('.fourth .col-4:nth-of-type(2)');
+var audio12 = $('.fourth .col-md-4:nth-of-type(2) > .audio');
+var player12 = $('.fourth .col-md-4:nth-of-type(2)');
 
-var audio13 = $('.fourth .col-4:nth-of-type(3) > .audio');
-var player13 = $('.fourth .col-4:nth-of-type(3)');
+var audio13 = $('.fourth .col-md-4:nth-of-type(3) > .audio');
+var player13 = $('.fourth .col-md-4:nth-of-type(3)');
 
 
 
