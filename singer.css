@@ -1,0 +1,148 @@
+/* RESET CSS TOOL */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    margin: 1rem;
+    transition: 3s;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Princess Sofia', cursive;
+    display: inline;
+}
+
+.col-12{
+    text-align: center;
+    height: 150px;
+}
+
+.col-md-4 > img{
+    width: 100%;
+    height: auto;
+}
+
+/* .col-md-4 > img:hover{
+   box-shadow: 3px 18px 37px 1px rgba(0,0,0,0.35);
+-webkit-box-shadow: 3px 18px 37px 1px rgba(0,0,0,0.35);
+-moz-box-shadow: 3px 18px 37px 1px rgba(0,0,0,0.35);
+transform: translateY(-10px);
+}
+
+.col-md-4 > .row > img:hover{
+    box-shadow: 3px 18px 37px 1px rgba(0,0,0,0.35);
+-webkit-box-shadow: 3px 18px 37px 1px rgba(0,0,0,0.35);
+-moz-box-shadow: 3px 18px 37px 1px rgba(0,0,0,0.35);
+transform: translateY(-10px);
+} */
+
+.col-md-4{
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.col-md-4 > audio{
+    position: absolute;
+}
+
+.second > .col-md-4:nth-of-type(1) > img{
+    height: 65vh;
+    margin-top: -155px;
+}
+
+.second > .col-md-4:nth-of-type(2) > img{
+    height: 73vh;
+    margin-top: 10px;
+}
+
+.second > .col-md-4:nth-of-type(3) > img{
+    height: 60vh;
+    margin-top: -155px;
+}
+
+.third > .col-md-4:nth-of-type(1) > img{
+    height: 77vh;
+    margin-top: -200px;
+}
+
+.third > .col-md-4:nth-of-type(2) > img{
+    height: 43vh;
+    margin-top: 10px;
+}
+
+.third > .col-md-4:nth-of-type(3) > img{
+        height: 77vh;
+    margin-top: -230px;
+}
+
+.fourth > .col-md-4:nth-of-type(1) > img{
+    height: 34vh;
+    margin-top: 10px;
+}
+
+.fourth > .col-md-4:nth-of-type(2) > img{
+    height: 230px;
+    margin-top: 0px;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.fourth > .col-md-4:nth-of-type(3) > img{
+    height: 39vh;
+    margin-top: -20px;
+}
+
+@media only screen and (max-width: 600px) {
+    img{
+        margin-top: 1rem !important;
+    }
+    header > .row{
+        margin-bottom: 10rem !important;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    header > .row{
+        margin-bottom: 15rem !important;
+    }
+}
